@@ -2,7 +2,7 @@
 
 ## `news.explore`
 
-Search for financial news articles using Elasticsearch's built-in index search capability. Use this when the user asks about news, market sentiment, or recent headlines for specific stocks, sectors, or overall market mood.
+Search for financial news articles. Unlike ES|QL tools which use predefined queries, the index search tool lets the agent construct its own Elasticsearch queries against the `news` index for flexible discovery. Use this when the user asks about news, market sentiment, or recent headlines for specific stocks, sectors, or overall market mood.
 
 | Property | Value |
 |----------|-------|

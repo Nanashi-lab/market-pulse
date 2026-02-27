@@ -74,8 +74,8 @@ Financial professionals juggle multiple tools to track stocks, read news, and as
 
 | Category | Tools | Examples |
 |----------|-------|---------|
-| ES\|QL Query | 9 | Latest prices, date range lookup, top movers, sector performance, sentiment breakdown |
-| Index Search | 1 | Flexible news discovery with semantic search |
+| ES\|QL Query | 9 | Latest prices, date range lookup, top movers, sector performance, semantic news search, sentiment breakdown |
+| Index Search | 1 | AI-constructed queries for flexible news discovery |
 | Workflow (Write) | 2 | Add/remove tickers from watchlist |
 | Workflow + Sub-Agent | 2 | Daily market briefing, watchlist risk report |
 
@@ -86,7 +86,7 @@ Financial professionals juggle multiple tools to track stocks, read news, and as
 ## Key Design Decisions
 
 - **Agent-calling workflows**: Complex tools (briefing, risk report) gather data deterministically via ES|QL, then pass results to a specialized sub-agent for LLM-powered synthesis. This combines query reliability with reasoning capability.
-- **Semantic search on news**: `headline` and `summary` fields use `semantic_text` mapping, enabling natural language queries like "any bad news about tech companies."
+- **Semantic search via ES|QL**: The `news.semantic_search` ES|QL tool uses `MATCH()` on `semantic_text` fields (`headline`, `summary`), enabling natural language queries like "any bad news about tech companies" directly in ES|QL. The `news.explore` index search tool complements this by letting the agent construct its own Elasticsearch queries for flexible discovery.
 - **Lookup index for joins**: A `lookup_watchlist` index (with `index.mode: lookup`) enables `LOOKUP JOIN` in ES|QL to get prices for tracked stocks in a single query.
 
 ## Tech Stack

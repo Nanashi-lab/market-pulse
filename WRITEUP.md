@@ -8,8 +8,8 @@ Tracking financial markets means constantly switching between tools — one for 
 
 MarketPulse is a financial intelligence chat application powered by Elasticsearch Agent Builder. The agent has access to 14 custom tools across four categories:
 
-- **9 ES|QL query tools** for structured data retrieval — stock prices, date ranges, top movers, sector aggregations, watchlist lookups, and sentiment breakdowns.
-- **1 index search tool** using semantic search on news articles, so users can ask broad questions like "any bad news about tech?" and get contextually relevant results.
+- **9 ES|QL query tools** for structured data retrieval — stock prices, date ranges, top movers, sector aggregations, watchlist lookups, semantic news search via `MATCH()` on `semantic_text` fields, and sentiment breakdowns.
+- **1 index search tool** (`news.explore`) where the agent constructs its own Elasticsearch queries for flexible news discovery, complementing the predefined ES|QL tools.
 - **2 write workflow tools** for adding and removing tickers from a watchlist, with conditional logic (find-then-update pattern for removals).
 - **2 agent-calling workflow tools** — the most interesting part. These workflows first gather data deterministically via ES|QL, then pass the structured results to a specialized sub-agent for LLM-powered synthesis. The daily briefing workflow fetches top movers and recent news, then hands them to a Market Briefing Agent. The risk report workflow pulls tracked stocks and negative news, then passes them to a Watchlist Risk Analyst that ranks exposure.
 
