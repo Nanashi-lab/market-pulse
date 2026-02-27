@@ -27,7 +27,7 @@ export default function Header({ onToggleWatchlist }: HeaderProps) {
           MarketPulse
         </span>
         {/* Subtle separator */}
-        <span className="ml-1 text-text-muted text-xs font-normal tracking-normal opacity-60">
+        <span className="ml-1 text-text-secondary text-xs font-normal tracking-normal">
           / AI Market Intelligence
         </span>
         {/* Watchlist toggle button — pushed to right */}

@@ -3,10 +3,10 @@
 
 @theme {
   /* Background system */
-  --color-bg-primary: #1a1a2e;
-  --color-bg-surface: #16213e;
-  --color-bg-elevated: #1f2b47;
-  --color-bg-user-msg: #0f3460;
+  --color-bg-primary: #0a0a0a;
+  --color-bg-surface: #111111;
+  --color-bg-elevated: #1a1a1a;
+  --color-bg-user-msg: #1a1a2e;
 
   /* Neon accent palette */
   --color-accent-blue: #3b82f6;
@@ -22,7 +22,7 @@
   /* Semantic colors */
   --color-positive: #00ff9f;
   --color-negative: #ff4d6d;
-  --color-border-subtle: #2d3748;
+  --color-border-subtle: #222222;
 
   /* Typography */
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
@@ -143,7 +143,7 @@ button:focus-visible {
 
   /* Code blocks */
   pre {
-    background: #0d1117;
+    background: #0e0e0e;
     border: 1px solid rgba(59, 130, 246, 0.25);
     border-radius: 8px;
     padding: 14px 16px;

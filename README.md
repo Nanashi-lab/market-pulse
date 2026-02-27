@@ -4,6 +4,14 @@ AI-powered financial intelligence platform built with **Elasticsearch Agent Buil
 
 MarketPulse is a conversational AI agent that queries stock data, manages watchlists, analyzes news sentiment, and generates market briefings — all through natural language chat.
 
+## Screenshots
+
+![Conversational stock analysis](screenshots/1.png)
+
+![Watchlist drawer](screenshots/2.png)
+
+![Tool execution traces](screenshots/3.png)
+
 ## The Problem
 
 Financial professionals juggle multiple tools to track stocks, read news, and assess risk. MarketPulse consolidates this into a single conversational interface powered by Elasticsearch, where an AI agent reasons across structured market data and unstructured news in real time.
