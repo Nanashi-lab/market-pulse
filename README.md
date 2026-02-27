@@ -18,49 +18,49 @@ Financial professionals juggle multiple tools to track stocks, read news, and as
                             │  /api/agent_builder/converse
                             ▼
 ┌──────────────────────────────────────────────────────────────────┐
-│                  MarketPulse Agent (Primary)                      │
-│                   Elasticsearch Agent Builder                     │
+│                  MarketPulse Agent (Primary)                     │
+│                   Elasticsearch Agent Builder                    │
 │                                                                  │
 │  ┌────────────────────────────────────────────────────────────┐  │
 │  │                      14 Agent Tools                        │  │
 │  │                                                            │  │
 │  │  ES|QL Query Tools (9)          Index Search Tools (1)     │  │
-│  │  ┌─────────────────────┐        ┌───────────────────┐     │  │
-│  │  │ get_recent          │        │ news.explore      │     │  │
-│  │  │ get_range           │        │ (semantic search) │     │  │
-│  │  │ top_movers          │        └───────────────────┘     │  │
-│  │  │ sector_performance  │                                  │  │
+│  │  ┌─────────────────────┐        ┌───────────────────┐      │  │
+│  │  │ get_recent          │        │ news.explore      │      │  │
+│  │  │ get_range           │        │ (semantic search) │      │  │
+│  │  │ top_movers          │        └───────────────────┘      │  │
+│  │  │ sector_performance  │                                   │  │
 │  │  │ watchlist prices    │        Workflow Tools (4)         │  │
-│  │  │ watchlist tracked   │        ┌───────────────────┐     │  │
-│  │  │ semantic_search     │        │ watchlist.add     │     │  │
-│  │  │ sentiment_by_ticker │        │ watchlist.remove  │     │  │
-│  │  │ sentiment_by_sector │        │ daily_briefing  ──┼──┐  │  │
-│  │  └─────────────────────┘        │ risk_report    ──┼──┤  │  │
-│  │                                 └───────────────────┘  │  │  │
-│  └────────────────────────────────────────────────────────┘  │  │
-│                                                       │      │  │
-│  ┌────────────────────────────────────────────────────┘      │  │
-│  │  Sub-Agent Workflows                                      │  │
-│  │  ┌──────────────────────┐  ┌────────────────────────┐     │  │
-│  │  │ Market Briefing      │  │ Watchlist Risk         │     │  │
-│  │  │ Agent                │  │ Analyst                │     │  │
-│  │  │                      │  │                        │     │  │
-│  │  │ ES|QL: top movers    │  │ ES|QL: tracked stocks  │     │  │
-│  │  │ ES|QL: recent news   │  │ ES|QL: negative news   │     │  │
-│  │  │   ↓                  │  │   ↓                    │     │  │
-│  │  │ LLM: synthesize      │  │ LLM: rank risk         │     │  │
-│  │  │ morning briefing     │  │ per stock              │     │  │
-│  │  └──────────────────────┘  └────────────────────────┘     │  │
-│  └───────────────────────────────────────────────────────────┘  │
+│  │  │ watchlist tracked   │        ┌───────────────────┐      │  │
+│  │  │ semantic_search     │        │ watchlist.add     │      │  │
+│  │  │ sentiment_by_ticker │        │ watchlist.remove  │      │  │
+│  │  │ sentiment_by_sector │        │ daily_briefing  ──┼──┐   │  │
+│  │  └─────────────────────┘        │ risk_report     ──┼──┤   │  │
+│  │                                 └───────────────────┘  │   │  │
+│  └────────────────────────────────────────────────────────┘   │  │
+│                                                       │       │  │
+│  ┌────────────────────────────────────────────────────┘       │  │
+│  │  Sub-Agent Workflows                                       │  │
+│  │  ┌──────────────────────┐  ┌────────────────────────┐      │  │
+│  │  │ Market Briefing      │  │ Watchlist Risk         │      │  │
+│  │  │ Agent                │  │ Analyst                │      │  │
+│  │  │                      │  │                        │      │  │
+│  │  │ ES|QL: top movers    │  │ ES|QL: tracked stocks  │      │  │
+│  │  │ ES|QL: recent news   │  │ ES|QL: negative news   │      │  │
+│  │  │   ↓                  │  │   ↓                    │      │  │
+│  │  │ LLM: synthesize      │  │ LLM: rank risk         │      │  │
+│  │  │ morning briefing     │  │ per stock              │      │  │
+│  │  └──────────────────────┘  └────────────────────────┘      │  │
+│  └─────────────────────────────────────────────────────────── ┘  │
 │                                                                  │
 │  ┌────────────────────────────────────────────────────────────┐  │
-│  │                  Elasticsearch Indices                      │  │
+│  │                  Elasticsearch Indices                     │  │
 │  │                                                            │  │
 │  │  stock_prices (1,850)  │  watchlist (50)  │  news (510)    │  │
 │  │  OHLCV + sector        │  ticker + status │  semantic_text │  │
 │  │                        │                  │  + sentiment   │  │
-│  │                        │  lookup_watchlist │                │  │
-│  │                        │  (LOOKUP JOIN)    │                │  │
+│  │                        │  lookup_watchlist │               │  │
+│  │                        │  (LOOKUP JOIN)    │               │  │
 │  └────────────────────────────────────────────────────────────┘  │
 └──────────────────────────────────────────────────────────────────┘
 ```
