@@ -1,0 +1,641 @@
+[
+  {
+    "headline": "NVIDIA Kicks Off CES 2026 With Rubin AI Platform Unveil",
+    "summary": "CEO Jensen Huang unveiled Rubin, NVIDIA's next-generation six-chip AI platform now in full production, promising to cut token generation costs to one-tenth of Blackwell. Analysts responded with increased price targets, calling it a pivotal moment for the AI infrastructure buildout.",
+    "source": "CNBC",
+    "published_at": "2026-01-06T10:00:00",
+    "tickers": ["NVDA"],
+    "sector": "Technology",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Tesla Delivers 418,227 Vehicles in Q4, Full-Year Drops 8%",
+    "summary": "Tesla reported fourth-quarter deliveries of 418,227 EVs, bringing its full-year 2025 total to 1.64 million vehicles, an 8% decline from 2024. The disappointing numbers marked the company's first annual delivery decline, raising concerns about aging vehicle lineup and brand challenges.",
+    "source": "Reuters",
+    "published_at": "2026-01-02T08:30:00",
+    "tickers": ["TSLA"],
+    "sector": "Consumer Cyclical",
+    "sentiment": "negative"
+  },
+  {
+    "headline": "AMD Shares Rise on Optimism Ahead of Q4 Earnings",
+    "summary": "AMD stock gained 3.2% as investors positioned ahead of the chipmaker's fourth-quarter earnings report. Analysts highlighted growing data center revenue and the MI350 GPU ramp as key catalysts for potential upside.",
+    "source": "Bloomberg",
+    "published_at": "2026-01-03T14:15:00",
+    "tickers": ["AMD"],
+    "sector": "Technology",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Meta AI Glasses Waitlist Extends Into 2026 as Demand Surges",
+    "summary": "Meta's Ray-Ban Display smart glasses, priced at $799, have seen waitlists extend well into 2026 due to overwhelming demand since their fall launch. The product's integration of LLAMA 4 AI and neural band controller has resonated with consumers seeking wearable AI.",
+    "source": "The Verge",
+    "published_at": "2026-01-04T11:00:00",
+    "tickers": ["META"],
+    "sector": "Technology",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Jensen Huang CES Keynote Ignites Analyst Optimism on NVIDIA Future",
+    "summary": "Multiple Wall Street firms raised their price targets on NVIDIA following Jensen Huang's CES 2026 keynote, which showcased the Rubin platform and Alpamayo autonomous vehicle AI. Analysts called the presentation evidence that AI demand remains robust and NVIDIA's competitive moat is widening.",
+    "source": "CNBC",
+    "published_at": "2026-01-07T09:30:00",
+    "tickers": ["NVDA"],
+    "sector": "Technology",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Tesla Stock Falls on Q4 Delivery Miss, Worst Annual Decline on Record",
+    "summary": "Tesla shares dropped 4% in early trading after the company confirmed its first-ever annual delivery decline. Analysts noted that aging models, political backlash in Europe, and rising competition from BYD contributed to the disappointing results.",
+    "source": "Bloomberg",
+    "published_at": "2026-01-06T09:45:00",
+    "tickers": ["TSLA"],
+    "sector": "Consumer Cyclical",
+    "sentiment": "negative"
+  },
+  {
+    "headline": "NVIDIA Unveils Alpamayo, World's First Reasoning Autonomous Vehicle AI",
+    "summary": "At CES 2026, NVIDIA introduced Alpamayo, an open reasoning model family for autonomous vehicle development that processes sensor input end-to-end from camera to actuation. The model can articulate its reasoning for driving decisions, representing a major step toward explainable self-driving AI.",
+    "source": "TechCrunch",
+    "published_at": "2026-01-06T16:00:00",
+    "tickers": ["NVDA"],
+    "sector": "Technology",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Trump Administration Authorizes Certain Chip Sales to China",
+    "summary": "The Trump administration approved limited semiconductor exports to China in January, providing a modest tailwind for AMD and other chipmakers. However, restrictions on the most advanced AI accelerators, including NVIDIA's Blackwell GPUs, remain firmly in place.",
+    "source": "Reuters",
+    "published_at": "2026-01-08T13:00:00",
+    "tickers": ["AMD", "NVDA"],
+    "sector": "Technology",
+    "sentiment": "neutral"
+  },
+  {
+    "headline": "Meta Plans Two New Smart Glasses Models for 2026",
+    "summary": "According to internal sources, Meta is developing two next-generation Ray-Ban smart glasses codenamed Aperol and Bellini for 2026 release. The devices will feature 'super sensing' capabilities allowing Live AI to run in the background for hours and optional facial recognition.",
+    "source": "The Information",
+    "published_at": "2026-01-09T10:30:00",
+    "tickers": ["META"],
+    "sector": "Technology",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Tesla Robotaxi Involved in 14 Crashes Since Austin Launch",
+    "summary": "NHTSA disclosed that Tesla's robotaxi fleet in Austin has been involved in 14 crashes since launching in mid-2025 with safety drivers. While none resulted in serious injuries, the incidents have drawn regulatory scrutiny and raised questions about the pace of autonomous expansion.",
+    "source": "CBS News",
+    "published_at": "2026-01-10T08:00:00",
+    "tickers": ["TSLA"],
+    "sector": "Consumer Cyclical",
+    "sentiment": "negative"
+  },
+  {
+    "headline": "NVIDIA Blackwell GPUs Effectively Sold Out Through Mid-2026",
+    "summary": "OEM partners confirmed that NVIDIA's Blackwell B100 and B200 AI accelerators are fully allocated for their first twelve months of production. Demand from hyperscale cloud providers continues to outstrip supply, with TSMC's CoWoS packaging capacity remaining the key bottleneck.",
+    "source": "DigiTimes",
+    "published_at": "2026-01-11T07:00:00",
+    "tickers": ["NVDA"],
+    "sector": "Technology",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "AMD MI350 Secures Deployment Commitments From Microsoft, Meta, OpenAI",
+    "summary": "AMD confirmed that its Instinct MI350 series GPUs have secured deployment commitments from major cloud and AI players including Microsoft, Meta, and OpenAI. The MI350 delivers up to 35x inference performance improvement over the previous generation with 288GB HBM3E memory.",
+    "source": "Reuters",
+    "published_at": "2026-01-12T11:30:00",
+    "tickers": ["AMD", "META"],
+    "sector": "Technology",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Tesla Europe Sales Decline for 12th Consecutive Month in December",
+    "summary": "Tesla's European sales continued their downward trend, marking the 12th straight monthly decline. Brand damage from Elon Musk's political activities and rising competition from BYD and European automakers have eroded Tesla's market share across the continent.",
+    "source": "CNBC",
+    "published_at": "2026-01-13T09:00:00",
+    "tickers": ["TSLA"],
+    "sector": "Consumer Cyclical",
+    "sentiment": "negative"
+  },
+  {
+    "headline": "NVIDIA Sees $500 Billion Blackwell-Rubin Pipeline Through 2026",
+    "summary": "NVIDIA disclosed a revenue pipeline exceeding $500 billion for its Blackwell and Rubin product families through calendar year 2026. Major cloud providers including Meta, Microsoft, and Amazon have committed to multi-billion dollar allocations of upcoming Rubin chips.",
+    "source": "DigiTimes",
+    "published_at": "2026-01-14T08:00:00",
+    "tickers": ["NVDA"],
+    "sector": "Technology",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Meta Q4 Earnings Beat: Revenue of $59.9B, EPS of $8.88",
+    "summary": "Meta Platforms reported Q4 2025 earnings that topped analyst expectations, with EPS of $8.88 versus $8.16 expected and revenue of $59.9 billion versus $58.4 billion projected. Shares jumped as much as 10% in after-hours trading on the strong results.",
+    "source": "CNBC",
+    "published_at": "2026-01-29T16:30:00",
+    "tickers": ["META"],
+    "sector": "Technology",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Meta Guides for $115-$135 Billion in 2026 Capital Expenditure",
+    "summary": "Alongside its Q4 earnings beat, Meta announced plans to spend between $115 billion and $135 billion on capital expenditures in 2026, up roughly 75% from 2025. The massive spending plan underscores the company's aggressive AI infrastructure buildout and data center expansion.",
+    "source": "Bloomberg",
+    "published_at": "2026-01-29T17:00:00",
+    "tickers": ["META"],
+    "sector": "Technology",
+    "sentiment": "neutral"
+  },
+  {
+    "headline": "OpenAI Hires Star AI Researcher From Meta, Intensifying Talent War",
+    "summary": "OpenAI poached Ruoming Pang, a leading AI researcher from Meta's FAIR lab, in a move that intensifies the talent war among AI companies. The departure highlights the competitive pressure Meta faces in retaining top researchers despite its massive AI investment.",
+    "source": "The Information",
+    "published_at": "2026-01-15T10:00:00",
+    "tickers": ["META"],
+    "sector": "Technology",
+    "sentiment": "negative"
+  },
+  {
+    "headline": "Tesla Launches Robotaxi Rides in Austin Without Safety Driver",
+    "summary": "Tesla began offering unsupervised robotaxi rides in Austin, Texas, with CEO Elon Musk announcing the milestone on X. The company started mixing in vehicles without safety monitors alongside its existing supervised fleet, marking a major step toward fully autonomous ride-hailing.",
+    "source": "TechCrunch",
+    "published_at": "2026-01-22T12:00:00",
+    "tickers": ["TSLA"],
+    "sector": "Consumer Cyclical",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "NVIDIA Stock Outperforms Megacap Peers, Up 5% YTD",
+    "summary": "NVIDIA shares have risen 5% year-to-date in 2026, making it one of only two trillion-dollar companies (alongside Apple) to post gains while the Nasdaq is down 0.4%. Strong AI infrastructure demand and the Rubin platform reveal have underpinned investor confidence.",
+    "source": "Bloomberg",
+    "published_at": "2026-01-16T14:00:00",
+    "tickers": ["NVDA"],
+    "sector": "Technology",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Jensen Huang Declares 'The Race Is On for AI' as Spending Surges",
+    "summary": "NVIDIA CEO Jensen Huang told investors that the global race for AI supremacy is accelerating, with major tech companies committing hundreds of billions in infrastructure spending. He highlighted that every major cloud provider has expanded their NVIDIA GPU orders for 2026 and beyond.",
+    "source": "Motley Fool",
+    "published_at": "2026-01-18T09:30:00",
+    "tickers": ["NVDA"],
+    "sector": "Technology",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Tesla Q4 Earnings Beat Estimates: EPS $0.50 vs $0.40 Expected",
+    "summary": "Tesla reported Q4 2025 adjusted EPS of $0.50, beating the $0.40 consensus estimate by 25%. However, revenue slid 3% year-over-year to $24.9 billion as auto segment revenue fell 11%, and full-year 2025 revenue declined for the first time in company history.",
+    "source": "CNBC",
+    "published_at": "2026-01-28T16:15:00",
+    "tickers": ["TSLA"],
+    "sector": "Consumer Cyclical",
+    "sentiment": "neutral"
+  },
+  {
+    "headline": "Tesla Profit Tanked 46% in 2025, Revenue Declines for First Time",
+    "summary": "Tesla's full-year 2025 profits fell 46% as the company faced declining deliveries, margin pressure from price cuts, and brand damage in key markets. Despite beating Q4 EPS estimates, the annual results painted a challenging picture for the automaker.",
+    "source": "TechCrunch",
+    "published_at": "2026-01-28T17:30:00",
+    "tickers": ["TSLA"],
+    "sector": "Consumer Cyclical",
+    "sentiment": "negative"
+  },
+  {
+    "headline": "Tesla Stock Climbs on Optimus Robot Production Timeline",
+    "summary": "Tesla shares rose in after-hours trading after the company confirmed during its Q4 earnings call that Optimus humanoid robots remain on track for end-of-year production. Musk called Optimus 'the most valuable product ever made' and projected mass production scaling in 2027.",
+    "source": "Yahoo Finance",
+    "published_at": "2026-01-28T21:00:00",
+    "tickers": ["TSLA"],
+    "sector": "Consumer Cyclical",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Wedbush Sets $600 Price Target on Tesla, Cites Robotaxi Potential",
+    "summary": "Wedbush analyst Dan Ives maintained his Street-high $600 price target on Tesla, citing the robotaxi launch in Austin and plans to expand to seven more cities in H1 2026. Ives called Tesla's autonomous driving efforts 'the most underappreciated asset on the planet.'",
+    "source": "CNBC",
+    "published_at": "2026-01-25T10:00:00",
+    "tickers": ["TSLA"],
+    "sector": "Consumer Cyclical",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "GLJ Research Maintains $25 Bear Case on Tesla",
+    "summary": "GLJ Research analyst Gordon Johnson reiterated his $25.28 price target on Tesla, the lowest on Wall Street, arguing that the company's core auto business is deteriorating and robotaxi revenue is years away from materiality. The stark contrast with Wedbush's $600 target highlights extreme analyst disagreement.",
+    "source": "Bloomberg",
+    "published_at": "2026-01-24T11:00:00",
+    "tickers": ["TSLA"],
+    "sector": "Consumer Cyclical",
+    "sentiment": "negative"
+  },
+  {
+    "headline": "AMD Predicts Q4 Earnings Will Soar on Data Center Demand",
+    "summary": "Ahead of its February 3 earnings report, AMD management guided for strong data center and AI-related revenue growth driven by EPYC server CPUs and Instinct GPU accelerators. Analysts predicted the chipmaker would report revenue exceeding $10 billion for the first time.",
+    "source": "Motley Fool",
+    "published_at": "2026-01-28T09:00:00",
+    "tickers": ["AMD"],
+    "sector": "Technology",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Nvidia Lawmaker Controversy: Alleged DeepSeek Co-Design Despite Export Ban",
+    "summary": "The Republican head of the House China committee alleged that NVIDIA provided technical support helping DeepSeek improve its AI model, despite US export controls. NVIDIA's stock dipped 2% on the news as investors weighed potential regulatory and reputational risks.",
+    "source": "Bloomberg",
+    "published_at": "2026-01-29T10:00:00",
+    "tickers": ["NVDA"],
+    "sector": "Technology",
+    "sentiment": "negative"
+  },
+  {
+    "headline": "Meta Shares Give Back All Post-Earnings Gains in Sharp Reversal",
+    "summary": "After initially surging 10% on strong Q4 results, Meta shares reversed course and fell roughly 10% from their post-earnings peak. Investors grew concerned about the company's $115-$135 billion capex guidance, questioning whether the massive AI spending will deliver adequate returns.",
+    "source": "Motley Fool",
+    "published_at": "2026-02-04T09:30:00",
+    "tickers": ["META"],
+    "sector": "Technology",
+    "sentiment": "negative"
+  },
+  {
+    "headline": "AMD Q4 Revenue Tops $10B but Stock Sinks 17% on Soft Guidance",
+    "summary": "AMD reported record Q4 revenue of $10.27 billion, beating estimates of $9.67 billion, but shares plunged 17% after the company guided Q1 revenue to $9.8 billion. While the guidance technically beat consensus of $9.38 billion, some analysts had expected a stronger outlook given AI momentum.",
+    "source": "CNBC",
+    "published_at": "2026-02-04T09:00:00",
+    "tickers": ["AMD"],
+    "sector": "Technology",
+    "sentiment": "negative"
+  },
+  {
+    "headline": "Tesla Europe Sales Drop for 13th Straight Month in January",
+    "summary": "Tesla's European new car registrations fell to 8,075 in January, down 17% year-over-year, marking the 13th consecutive month of decline. Norway saw an 88% plunge while the Netherlands fell 67%, as Musk's political activities continue to alienate European buyers.",
+    "source": "CNBC",
+    "published_at": "2026-02-02T08:00:00",
+    "tickers": ["TSLA"],
+    "sector": "Consumer Cyclical",
+    "sentiment": "negative"
+  },
+  {
+    "headline": "AMD Stock Drops 17% After Earnings Despite Revenue Beat",
+    "summary": "AMD shares suffered their worst single-day decline in over a year, falling 17% despite posting record quarterly revenue. The sell-off was driven by concerns that the company's first-quarter guidance, while above consensus, fell short of some bullish expectations for AI chip demand growth.",
+    "source": "CNBC",
+    "published_at": "2026-02-05T09:00:00",
+    "tickers": ["AMD"],
+    "sector": "Technology",
+    "sentiment": "negative"
+  },
+  {
+    "headline": "Tesla Robotaxi Expansion: Plans for Seven New US Cities in H1 2026",
+    "summary": "Tesla confirmed plans to expand its robotaxi service to Dallas, Houston, Phoenix, Miami, Orlando, Tampa, and Las Vegas in the first half of 2026. The expansion comes after the company began offering unsupervised rides in Austin, though the rollout pace has been slower than Musk initially promised.",
+    "source": "Reuters",
+    "published_at": "2026-02-03T11:00:00",
+    "tickers": ["TSLA"],
+    "sector": "Consumer Cyclical",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "OpenAI Takes 10% Stake in AMD as Part of Multi-Year Chip Deal",
+    "summary": "OpenAI's deal with AMD, first announced in October, will see the AI startup deploy 6 gigawatts of AMD Instinct GPUs over multiple years. The initial 1-gigawatt rollout begins in the second half of 2026, with OpenAI's 10% stake providing AMD a strategic anchor customer.",
+    "source": "Bloomberg",
+    "published_at": "2026-02-06T10:00:00",
+    "tickers": ["AMD"],
+    "sector": "Technology",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "NVIDIA Stock Falls to Year-to-Date Low Amid Export Control Concerns",
+    "summary": "NVIDIA shares fell to their lowest level of 2026 as investors worried about tightening US export controls on AI chips to China. The DeepSeek controversy and congressional scrutiny of NVIDIA's China business weighed on sentiment despite strong underlying demand.",
+    "source": "Reuters",
+    "published_at": "2026-02-06T14:00:00",
+    "tickers": ["NVDA"],
+    "sector": "Technology",
+    "sentiment": "negative"
+  },
+  {
+    "headline": "Meta Agrees to $100 Billion Multi-Year AI Hardware Partnership With AMD",
+    "summary": "Meta Platforms signed a multi-year AI hardware partnership with AMD valued at over $100 billion, diversifying its chip supply beyond NVIDIA. The deal covers deployment of AMD's Instinct MI350 and next-generation MI400 GPUs across Meta's expanding data center network.",
+    "source": "Bloomberg",
+    "published_at": "2026-02-07T09:00:00",
+    "tickers": ["META", "AMD"],
+    "sector": "Technology",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Tesla Musk's Political Activities Drive European Dealership Protests",
+    "summary": "Protests erupted at Tesla dealerships across Europe as consumers expressed anger over Elon Musk's spending of nearly $300 million to help elect President Trump and his role leading federal agency cuts. The demonstrations underscore the brand damage threatening Tesla's international sales.",
+    "source": "CNBC",
+    "published_at": "2026-02-08T08:30:00",
+    "tickers": ["TSLA"],
+    "sector": "Consumer Cyclical",
+    "sentiment": "negative"
+  },
+  {
+    "headline": "Mizuho Reiterates Outperform on NVIDIA, Cites Blackwell Demand",
+    "summary": "Mizuho Securities reiterated its Outperform rating on NVIDIA, highlighting that Blackwell GPU demand remains 'off the charts' with allocations fully committed through mid-2026. The firm raised its price target, citing the Meta infrastructure partnership and Rubin pipeline as additional catalysts.",
+    "source": "Investing.com",
+    "published_at": "2026-02-09T10:00:00",
+    "tickers": ["NVDA"],
+    "sector": "Technology",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "AMD Previews MI400 Series GPUs to Battle NVIDIA in 2026",
+    "summary": "AMD revealed details of its next-generation Instinct MI400 series, featuring HBM4 memory with 432GB capacity and 19.6 TB/s bandwidth. The MI400 promises double the AI compute performance of the MI350, with analyst estimates suggesting up to $12 billion in 2026 GPU revenue potential.",
+    "source": "Wccftech",
+    "published_at": "2026-02-10T09:00:00",
+    "tickers": ["AMD"],
+    "sector": "Technology",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "NVIDIA and Meta Forge Massive Multi-Year AI Alliance",
+    "summary": "NVIDIA and Meta announced a multiyear, multigenerational strategic partnership spanning on-premises, cloud, and AI infrastructure. The deal covers large-scale deployment of millions of NVIDIA Blackwell and Rubin GPUs, as well as the first large-scale NVIDIA Grace-only CPU deployment.",
+    "source": "CNBC",
+    "published_at": "2026-02-17T09:00:00",
+    "tickers": ["NVDA", "META"],
+    "sector": "Technology",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Meta Expands NVIDIA Deal to Include Millions of AI Chips and Standalone CPUs",
+    "summary": "Meta's expanded partnership with NVIDIA includes deployment of Arm-based Grace CPUs for data center production applications and plans to integrate Spectrum-X Ethernet switches. The companies are also collaborating on NVIDIA's Vera CPUs with potential large-scale deployment in 2027.",
+    "source": "CNBC",
+    "published_at": "2026-02-17T14:00:00",
+    "tickers": ["NVDA", "META"],
+    "sector": "Technology",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Tesla Robotaxi Status: 8 Months In, Only 19% Availability",
+    "summary": "An analysis of Tesla's Austin robotaxi fleet revealed only 19% availability eight months after launch, with most of Musk's promises still unfulfilled. The service operates in a limited geofenced area and has struggled with weather, night driving, and complex intersections.",
+    "source": "Electrek",
+    "published_at": "2026-02-16T10:00:00",
+    "tickers": ["TSLA"],
+    "sector": "Consumer Cyclical",
+    "sentiment": "negative"
+  },
+  {
+    "headline": "NVIDIA Q4 FY2026 Revenue Hits Record $68.1 Billion",
+    "summary": "NVIDIA reported record fourth-quarter fiscal 2026 revenue of $68.1 billion, up 73% year-over-year and 20% sequentially. Data center revenue surged 75% to $62.3 billion, driven by massive demand for Blackwell AI accelerators from hyperscale cloud providers.",
+    "source": "CNBC",
+    "published_at": "2026-02-25T16:15:00",
+    "tickers": ["NVDA"],
+    "sector": "Technology",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "NVIDIA Guides Q1 FY2027 Revenue to $78 Billion, Beating Estimates",
+    "summary": "NVIDIA guided first-quarter fiscal 2027 revenue to $78 billion plus or minus 2%, roughly $6 billion above Wall Street consensus. The guidance reflects continued insatiable demand for AI infrastructure and the ramp of next-generation Rubin GPUs in the second half of the year.",
+    "source": "Bloomberg",
+    "published_at": "2026-02-25T16:30:00",
+    "tickers": ["NVDA"],
+    "sector": "Technology",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "NVIDIA Stock Drops 5.5% Despite Record Earnings as Investors Book Profits",
+    "summary": "Despite reporting record Q4 revenue of $68.1 billion and above-consensus guidance, NVIDIA shares fell 5.5% to $184.89, the biggest one-day drop since April. Analysts attributed the sell-off to profit-taking and elevated expectations rather than any fundamental weakness.",
+    "source": "Bloomberg",
+    "published_at": "2026-02-26T09:30:00",
+    "tickers": ["NVDA"],
+    "sector": "Technology",
+    "sentiment": "negative"
+  },
+  {
+    "headline": "NVIDIA EPS Surges 82% YoY to $1.62, Data Center Dominance Continues",
+    "summary": "NVIDIA reported earnings per share of $1.62 for Q4 FY2026, an 82% increase year-over-year. The data center segment contributed over 91% of total revenue at $62.3 billion, cementing NVIDIA's position as the dominant supplier of AI training and inference hardware.",
+    "source": "Reuters",
+    "published_at": "2026-02-25T17:00:00",
+    "tickers": ["NVDA"],
+    "sector": "Technology",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "NVIDIA Vera Rubin AI Platform to Ship Second Half of 2026",
+    "summary": "NVIDIA confirmed that its Vera Rubin AI platform will begin shipping in the second half of 2026, with major customers including OpenAI, Anthropic, Amazon, Google, and Microsoft already queued for multi-billion dollar allocations. The platform promises significant performance gains over Blackwell.",
+    "source": "CNBC",
+    "published_at": "2026-02-25T18:00:00",
+    "tickers": ["NVDA"],
+    "sector": "Technology",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Tesla Plans Robotaxis in Half of US States by Year-End",
+    "summary": "Tesla disclosed plans to roll out its robotaxi service in half of US states by the end of 2026, with Elon Musk claiming the company will have hundreds of thousands of self-driving cars operating by December. Skeptics noted the company's history of missed autonomous driving timelines.",
+    "source": "Reuters",
+    "published_at": "2026-02-11T10:00:00",
+    "tickers": ["TSLA"],
+    "sector": "Consumer Cyclical",
+    "sentiment": "neutral"
+  },
+  {
+    "headline": "DeepSeek Reportedly Trained on NVIDIA Blackwell Chips Despite US Ban",
+    "summary": "A senior Trump administration official revealed that China's DeepSeek trained its latest AI model on NVIDIA's restricted Blackwell chips, potentially violating US export controls. The Blackwell GPUs were reportedly clustered at a data center in Inner Mongolia.",
+    "source": "Reuters",
+    "published_at": "2026-02-23T09:00:00",
+    "tickers": ["NVDA"],
+    "sector": "Technology",
+    "sentiment": "negative"
+  },
+  {
+    "headline": "DeepSeek Blocks NVIDIA, AMD From New AI Model Release",
+    "summary": "Chinese AI startup DeepSeek announced it will exclude American chipmakers NVIDIA and AMD from its next major AI model release, shifting to domestically produced hardware. The move signals China's accelerating push for semiconductor self-sufficiency in AI development.",
+    "source": "Reuters",
+    "published_at": "2026-02-26T08:00:00",
+    "tickers": ["NVDA", "AMD"],
+    "sector": "Technology",
+    "sentiment": "negative"
+  },
+  {
+    "headline": "Analysts Rate AMD a Buy Despite Post-Earnings Sell-Off",
+    "summary": "Despite the 17% post-earnings drop, 34 Wall Street analysts maintain a Buy consensus on AMD with an average price target of $265.18. Bulls argue the sell-off was overdone given AMD's growing AI chip pipeline and strategic partnerships with OpenAI and Meta.",
+    "source": "Seeking Alpha",
+    "published_at": "2026-02-08T12:00:00",
+    "tickers": ["AMD"],
+    "sector": "Technology",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Meta Stock Up 2.3% as Analysts Reiterate Strong Buy Rating",
+    "summary": "Meta shares gained 2.3% as 62 analysts maintained a Strong Buy rating with an average 12-month price target of $861.42. The positive sentiment reflects confidence in Meta's AI monetization strategy and the NVIDIA infrastructure partnership announced earlier in the month.",
+    "source": "MarketBeat",
+    "published_at": "2026-02-25T14:00:00",
+    "tickers": ["META"],
+    "sector": "Technology",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Tesla Sales Collapse Nearly 90% in Norway, EV Capital of Europe",
+    "summary": "Tesla's January registrations in Norway plummeted 88% to just 83 vehicles, a devastating decline in what was once the company's strongest European market per capita. The collapse reflects both political backlash and intense competition from Chinese EV makers gaining market share.",
+    "source": "Carscoops",
+    "published_at": "2026-02-10T07:00:00",
+    "tickers": ["TSLA"],
+    "sector": "Consumer Cyclical",
+    "sentiment": "negative"
+  },
+  {
+    "headline": "JPMorgan and Philip Securities Downgrade Tesla to Sell",
+    "summary": "Two major firms revised their Tesla ratings to Sell in February, citing deteriorating European sales, aging product lineup, and uncertainty around the robotaxi timeline. The downgrades pushed the average analyst consensus to Hold with a 12-month target of $393.51.",
+    "source": "Bloomberg",
+    "published_at": "2026-02-12T09:00:00",
+    "tickers": ["TSLA"],
+    "sector": "Consumer Cyclical",
+    "sentiment": "negative"
+  },
+  {
+    "headline": "AMD Helios AI Rack System Targets NVIDIA's Data Center Dominance",
+    "summary": "AMD unveiled its Helios reference design for AI rack infrastructure, integrating EPYC Venice CPUs, MI400 GPUs, and Pensando Vulcano AI NICs into a unified system. The rack supports up to 72 MI400 GPUs with 260 TB/s of scale-up bandwidth, directly challenging NVIDIA's DGX ecosystem.",
+    "source": "Data Center Dynamics",
+    "published_at": "2026-02-13T11:00:00",
+    "tickers": ["AMD"],
+    "sector": "Technology",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "BYD Doubles European Market Share as Tesla Retreats",
+    "summary": "Chinese EV giant BYD more than doubled its market share across the EU, UK, Switzerland, Norway, and Iceland in January, filling the vacuum left by Tesla's sales decline. The shift underscores the competitive threat facing Tesla from lower-priced Chinese EVs in international markets.",
+    "source": "Reuters",
+    "published_at": "2026-02-14T08:00:00",
+    "tickers": ["TSLA"],
+    "sector": "Consumer Cyclical",
+    "sentiment": "negative"
+  },
+  {
+    "headline": "NVIDIA Memory Costs Soar Amid Global HBM Shortage",
+    "summary": "NVIDIA flagged rising memory costs as a key challenge, with the global shortage of HBM3E chips driving prices higher. The shortage affects every Blackwell and Rubin GPU, with TSMC's advanced packaging capacity unable to keep pace with AI-driven demand.",
+    "source": "DigiTimes",
+    "published_at": "2026-02-15T09:00:00",
+    "tickers": ["NVDA"],
+    "sector": "Technology",
+    "sentiment": "negative"
+  },
+  {
+    "headline": "Meta CES 2026: Ray-Ban Display Teleprompter Feature Announced",
+    "summary": "Meta showcased a new teleprompter feature for its Ray-Ban Display glasses at CES 2026, enabling users to deliver prepared remarks with discreet text overlaid in their field of view. The company also demonstrated neural handwriting input via its Neural Band accessory.",
+    "source": "The Verge",
+    "published_at": "2026-01-07T15:00:00",
+    "tickers": ["META"],
+    "sector": "Technology",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "NVIDIA Rosy Revenue Forecast Shows AI Boom Remains Strong",
+    "summary": "Analysts highlighted that NVIDIA's Q1 FY2027 revenue guidance of $78 billion demonstrates the AI infrastructure buildout is far from peaking. Multiple firms noted that the guidance implies continued double-digit sequential growth, driven by Blackwell ramp and early Rubin orders.",
+    "source": "Bloomberg",
+    "published_at": "2026-02-26T10:00:00",
+    "tickers": ["NVDA"],
+    "sector": "Technology",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Tesla Stock Forecast: Analysts Divided Between $25 and $600",
+    "summary": "Tesla remains the most polarizing stock on Wall Street, with price targets ranging from GLJ Research's $25 bear case to Wedbush's $600 bull case. The extreme divergence reflects fundamental disagreement about the value of Tesla's robotaxi and AI initiatives versus its declining core auto business.",
+    "source": "Barron's",
+    "published_at": "2026-02-18T09:00:00",
+    "tickers": ["TSLA"],
+    "sector": "Consumer Cyclical",
+    "sentiment": "neutral"
+  },
+  {
+    "headline": "AMD Instinct MI350 Delivers 35x Inference Performance Leap",
+    "summary": "AMD's production-ready MI350 series demonstrated up to 35x inference performance improvement over its predecessor in benchmark tests. The 4th-gen CDNA architecture with 288GB HBM3E and support for MXFP4 datatypes positions AMD as a credible alternative to NVIDIA for AI inference workloads.",
+    "source": "AnandTech",
+    "published_at": "2026-01-20T10:00:00",
+    "tickers": ["AMD"],
+    "sector": "Technology",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Meta's AI Revenue Surges as Ad Targeting Models Improve",
+    "summary": "Meta disclosed that AI-powered improvements to its advertising recommendation systems drove significant revenue gains in Q4 2025. The company's investment in large language models for ad targeting and content ranking is delivering measurable returns on its massive AI infrastructure spending.",
+    "source": "CNBC",
+    "published_at": "2026-01-30T09:00:00",
+    "tickers": ["META"],
+    "sector": "Technology",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Tesla Model Y Turns Four as Buyers Seek Fresher Alternatives",
+    "summary": "Tesla's best-selling Model Y marked its fourth year on the market without a major redesign, contributing to waning consumer interest. European and Chinese buyers have increasingly turned to newer offerings from BYD, Hyundai, and Volkswagen that offer competitive range and features.",
+    "source": "Reuters",
+    "published_at": "2026-02-19T08:00:00",
+    "tickers": ["TSLA"],
+    "sector": "Consumer Cyclical",
+    "sentiment": "negative"
+  },
+  {
+    "headline": "NVIDIA Partners With Major Automakers on Alpamayo Autonomous Driving",
+    "summary": "Several major automakers announced plans to integrate NVIDIA's Alpamayo autonomous driving AI platform into their next-generation vehicles. The open reasoning model, unveiled at CES, has attracted interest for its ability to explain driving decisions in real-time.",
+    "source": "Reuters",
+    "published_at": "2026-01-21T10:00:00",
+    "tickers": ["NVDA"],
+    "sector": "Technology",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "AMD Stock Rebounds 5% as Dip Buyers Step In",
+    "summary": "AMD shares bounced 5% as value-oriented investors bought the post-earnings dip. Analysts at Motley Fool argued the 17% sell-off was overdone given AMD's $10 billion quarterly revenue milestone and growing AI chip partnerships with OpenAI and Meta.",
+    "source": "Motley Fool",
+    "published_at": "2026-02-23T09:00:00",
+    "tickers": ["AMD"],
+    "sector": "Technology",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Meta Quest 4 VR Headset Pushed Back to 2027 or Later",
+    "summary": "Leakers indicate Meta's next-generation Quest 4 VR headset has been pushed back from its original late 2026 timeline to 2027 or even 2028. The company appears to be redirecting resources toward AI glasses and infrastructure rather than standalone VR hardware.",
+    "source": "UploadVR",
+    "published_at": "2026-02-20T11:00:00",
+    "tickers": ["META"],
+    "sector": "Technology",
+    "sentiment": "negative"
+  },
+  {
+    "headline": "Tesla Shares Drop on Reports of Robotaxi Shortcomings",
+    "summary": "Tesla shares fell in early trading following reports highlighting persistent shortcomings in its Austin robotaxi operation. The service struggles with weather conditions, complex intersections, and night driving, raising questions about the timeline for profitable scaling.",
+    "source": "Bloomberg",
+    "published_at": "2026-02-20T09:30:00",
+    "tickers": ["TSLA"],
+    "sector": "Consumer Cyclical",
+    "sentiment": "negative"
+  },
+  {
+    "headline": "NVIDIA GB300 Systems Take Center Stage in Meta AI Alliance",
+    "summary": "NVIDIA's GB300 GPU systems are at the heart of the newly announced Meta infrastructure partnership, with the next-generation Blackwell Ultra architecture delivering significant performance improvements for large-scale AI training. Meta plans to deploy GB300 racks across multiple new hyperscale data centers.",
+    "source": "Next Platform",
+    "published_at": "2026-02-19T10:00:00",
+    "tickers": ["NVDA", "META"],
+    "sector": "Technology",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "AMD CEO Lisa Su Highlights AI as Largest Growth Opportunity",
+    "summary": "AMD CEO Lisa Su told investors that artificial intelligence represents the largest growth opportunity in the company's history, projecting AI-related GPU revenue could reach $12 billion in 2026. She highlighted the OpenAI partnership and MI400 roadmap as key competitive differentiators.",
+    "source": "CNBC",
+    "published_at": "2026-02-21T10:00:00",
+    "tickers": ["AMD"],
+    "sector": "Technology",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Tesla Elon Musk Promises Hundreds of Thousands of Self-Driving Cars by Year-End",
+    "summary": "Elon Musk reiterated his ambitious claim that Tesla will have hundreds of thousands of self-driving cars operating in the US by the end of 2026. Analysts expressed skepticism given the company's limited Austin deployment and track record of missed autonomous driving deadlines.",
+    "source": "Bloomberg",
+    "published_at": "2026-02-22T09:00:00",
+    "tickers": ["TSLA"],
+    "sector": "Consumer Cyclical",
+    "sentiment": "neutral"
+  },
+  {
+    "headline": "February 26 Could Be a Huge Day for the Stock Market",
+    "summary": "Analysts warned that NVIDIA's Q4 FY2026 earnings release on February 25, with results digested on February 26, could significantly move the broader market. NVIDIA's outsized influence on the S&P 500 and Nasdaq means its results often set the tone for tech sector sentiment.",
+    "source": "Motley Fool",
+    "published_at": "2026-02-21T09:00:00",
+    "tickers": ["NVDA"],
+    "sector": "Technology",
+    "sentiment": "neutral"
+  },
+  {
+    "headline": "Meta LLAMA 4 Integration Boosts Ray-Ban Glasses AI Capabilities",
+    "summary": "Meta's integration of its LLAMA 4 large language model into Ray-Ban smart glasses has significantly improved the device's conversational AI capabilities. Users report more natural interactions and faster responses, positioning the glasses as a leading wearable AI product.",
+    "source": "The Verge",
+    "published_at": "2026-02-14T11:00:00",
+    "tickers": ["META"],
+    "sector": "Technology",
+    "sentiment": "positive"
+  }
+]

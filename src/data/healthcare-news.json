@@ -1,0 +1,587 @@
+[
+  {
+    "headline": "Medicare Negotiated Drug Prices Take Effect for 10 Drugs",
+    "summary": "The first set of Medicare negotiated drug prices went into effect on January 1, 2026, covering 10 Part D drugs including Eliquis, Jardiance, Enbrel, and Stelara. The program is estimated to save $1.5 billion in annual out-of-pocket costs for Medicare beneficiaries and $6 billion per year for the Medicare program.",
+    "source": "CMS",
+    "published_at": "2026-01-01T08:00:00",
+    "tickers": ["JNJ", "ABBV", "MRK", "LLY", "AMGN"],
+    "sector": "Healthcare",
+    "sentiment": "negative"
+  },
+  {
+    "headline": "Drugmakers Raise U.S. Prices on 350 Medicines Despite Trump Pressure",
+    "summary": "Pharmaceutical companies plan to raise U.S. prices on at least 350 branded medications at the start of 2026, up from 250 at the same point last year. The increases come even as the Trump administration pressures drugmakers for price cuts under its Most Favored Nation initiative.",
+    "source": "CNN",
+    "published_at": "2026-01-01T12:00:00",
+    "tickers": ["JNJ", "ABBV", "MRK", "LLY", "AMGN"],
+    "sector": "Healthcare",
+    "sentiment": "negative"
+  },
+  {
+    "headline": "Amgen Touts MariTide Weight Loss and Diabetes Potential at JPM Conference",
+    "summary": "At the J.P. Morgan Healthcare Conference, Amgen presented Phase 2 data showing MariTide (maridebart cafraglutide) achieved up to 20% weight loss in obesity patients and up to 17% in those with type 2 diabetes. The once-monthly injectable is now advancing through six global Phase 3 trials with readouts expected in early 2027.",
+    "source": "Clinical Trials Arena",
+    "published_at": "2026-01-06T10:00:00",
+    "tickers": ["AMGN"],
+    "sector": "Healthcare",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "AbbVie Reaches Voluntary Drug Pricing Agreement with Trump Administration",
+    "summary": "AbbVie announced a voluntary three-year agreement with the Trump administration to expand access and affordability of its medicines. The deal includes Humira, Synthroid, and other drugs offered through a direct-to-consumer program, alongside a pledge of $100 billion in U.S.-based research and manufacturing investment.",
+    "source": "Pharmacy Times",
+    "published_at": "2026-01-12T09:00:00",
+    "tickers": ["ABBV"],
+    "sector": "Healthcare",
+    "sentiment": "neutral"
+  },
+  {
+    "headline": "AbbVie and RemeGen Announce $650M Licensing Agreement for RC148",
+    "summary": "AbbVie entered an exclusive licensing agreement with RemeGen for RC148, paying $650 million upfront with up to $4.95 billion in development and commercial milestones. The deal expands AbbVie's oncology pipeline with a novel antibody-drug conjugate candidate.",
+    "source": "Reuters",
+    "published_at": "2026-01-12T14:00:00",
+    "tickers": ["ABBV"],
+    "sector": "Healthcare",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Eli Lilly vs Novo Nordisk: Analysts Debate GLP-1 Market Dominance in 2026",
+    "summary": "With Eli Lilly holding a 60% share of the U.S. GLP-1 market and its oral obesity pill nearing FDA approval, analysts weigh whether Novo Nordisk can maintain competitive footing. Lilly's tirzepatide franchise continues to outpace expectations while Novo faces potential sales declines in 2026.",
+    "source": "Motley Fool",
+    "published_at": "2026-01-13T09:30:00",
+    "tickers": ["LLY"],
+    "sector": "Healthcare",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Eli Lilly's Weight Loss Drug May Offer Pain Relief Benefit",
+    "summary": "New research suggests Eli Lilly's most promising weight loss drug candidate may deliver an unexpected benefit in pain relief. The findings could expand the addressable market for GLP-1 therapies beyond obesity and diabetes into chronic pain management.",
+    "source": "Motley Fool",
+    "published_at": "2026-01-14T08:00:00",
+    "tickers": ["LLY"],
+    "sector": "Healthcare",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "AbbVie Reports Positive Phase 3 Results for Epcoritamab in DLBCL",
+    "summary": "AbbVie reported topline Phase 3 EPCORE DLBCL-1 results for epcoritamab in relapsed/refractory diffuse large B-cell lymphoma, enrolling 483 patients. The trial showed improved progression-free survival, supporting a potential regulatory filing for this blood cancer treatment.",
+    "source": "AbbVie",
+    "published_at": "2026-01-16T07:00:00",
+    "tickers": ["ABBV"],
+    "sector": "Healthcare",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Johnson & Johnson Reports Strong Q4 2025 with 11.5% Operational Sales Growth",
+    "summary": "J&J reported Q4 2025 operational sales growth of 11.5%, with full-year oncology sales growing 21% and DARZALEX crossing $14 billion in annual revenue. The company issued 2026 guidance of $100.5 billion in estimated sales, representing 6.7% growth, and adjusted EPS of $11.53.",
+    "source": "Johnson & Johnson",
+    "published_at": "2026-01-21T06:30:00",
+    "tickers": ["JNJ"],
+    "sector": "Healthcare",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "J&J Issues 2026 Guidance: $100.5B Revenue on Oncology and MedTech Strength",
+    "summary": "Johnson & Johnson projected 2026 sales of $100.5 billion driven by positive growth in immunology, oncology, and neurology. The company highlighted DARZALEX, TREMFYA, and its expanding MedTech portfolio as key growth engines, while managing ongoing talc litigation exposure.",
+    "source": "CNBC",
+    "published_at": "2026-01-21T09:00:00",
+    "tickers": ["JNJ"],
+    "sector": "Healthcare",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Abbott Reports Q4 2025 Results and Issues Strong 2026 Outlook",
+    "summary": "Abbott reported full-year 2025 sales of $44.3 billion, up 5.7%, with adjusted diluted EPS of $5.15 reflecting 10% growth. The company projected 2026 organic sales growth of 6.5% to 7.5% and adjusted diluted EPS of $5.55 to $5.80, signaling continued momentum across its diversified healthcare portfolio.",
+    "source": "Abbott",
+    "published_at": "2026-01-22T06:30:00",
+    "tickers": ["ABT"],
+    "sector": "Healthcare",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Abbott's Volt PFA System Gains FDA Approval for Atrial Fibrillation",
+    "summary": "Abbott announced FDA approval for its Volt Pulsed Field Ablation System, bringing the company's first PFA offering to U.S. patients with atrial fibrillation. The approval strengthens Abbott's electrophysiology portfolio and positions it to compete in the rapidly growing cardiac ablation market.",
+    "source": "Abbott",
+    "published_at": "2026-01-22T08:00:00",
+    "tickers": ["ABT"],
+    "sector": "Healthcare",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Abbott Announces Agreement to Acquire Exact Sciences for $21B",
+    "summary": "Abbott confirmed its agreement to acquire cancer diagnostics leader Exact Sciences for $105 per share in cash, at a total equity value of approximately $21 billion. The deal, expected to close in Q2 2026, positions Abbott to enter and lead the fast-growing cancer diagnostics market.",
+    "source": "Bloomberg",
+    "published_at": "2026-01-22T12:00:00",
+    "tickers": ["ABT"],
+    "sector": "Healthcare",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Abbott Receives CE Mark for TactiFlex Duo Ablation Catheter",
+    "summary": "Abbott obtained CE Mark approval for its TactiFlex Duo Ablation Catheter, designed to deliver both radiofrequency and pulsed field ablation energy to treat atrial fibrillation patients. The dual-energy catheter represents a significant advancement in cardiac rhythm management technology.",
+    "source": "Abbott",
+    "published_at": "2026-01-23T07:00:00",
+    "tickers": ["ABT"],
+    "sector": "Healthcare",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "UnitedHealth Group Reports Q4 2025 Earnings, Misses Revenue Estimates",
+    "summary": "UnitedHealth met Q4 2025 EPS forecasts at $2.11 but missed revenue expectations with $113.2 billion versus the $113.73 billion consensus. Full-year 2025 revenues reached $448 billion with 12% growth, but the stock plummeted over 16% in pre-market trading on weak guidance.",
+    "source": "CNBC",
+    "published_at": "2026-01-23T06:30:00",
+    "tickers": ["UNH"],
+    "sector": "Healthcare",
+    "sentiment": "negative"
+  },
+  {
+    "headline": "UnitedHealth Guides 2026 Revenue to $439B, First Annual Decline in Decades",
+    "summary": "UnitedHealth Group issued cautious 2026 guidance projecting revenue of $439 billion, down from $448 billion in 2025, marking its first annual revenue decline in decades. Management cited weaker Medicare Advantage member growth, commercial healthcare trends approaching 11%, and Medicaid rate pressures.",
+    "source": "Seeking Alpha",
+    "published_at": "2026-01-23T10:00:00",
+    "tickers": ["UNH"],
+    "sector": "Healthcare",
+    "sentiment": "negative"
+  },
+  {
+    "headline": "UnitedHealth Stock Collapses 16% on Weak 2026 Outlook and Medicare Pressure",
+    "summary": "UNH shares fell 16.39% after the company missed Q4 revenue estimates and issued below-consensus 2026 guidance. Analysts flagged ongoing DOJ investigations into Medicare Advantage billing practices and Optum Rx as additional overhang on the stock.",
+    "source": "Simply Wall St",
+    "published_at": "2026-01-23T16:00:00",
+    "tickers": ["UNH"],
+    "sector": "Healthcare",
+    "sentiment": "negative"
+  },
+  {
+    "headline": "Danaher Reports Q4 2025 Results, Revenue Grows 4.5% Year-Over-Year",
+    "summary": "Danaher reported Q4 2025 revenues of $6.8 billion, up 4.5% year-over-year, with adjusted diluted EPS of $2.23 growing 4%. Full-year revenues reached $24.6 billion with 3% growth. The company guided 2026 core revenue growth of 3% to 6% with adjusted EPS of $8.35 to $8.50.",
+    "source": "Danaher",
+    "published_at": "2026-01-28T06:30:00",
+    "tickers": ["DHR"],
+    "sector": "Healthcare",
+    "sentiment": "neutral"
+  },
+  {
+    "headline": "Danaher Expects Biotech Segment to Lead 2026 Growth at High-Single Digits",
+    "summary": "In its 2026 guidance, Danaher projected its Biotechnology segment to grow at high-single digits, while Life Sciences faces flat to low-single digit declines and Diagnostics targets low-single digit growth. Operating cash flow for Q4 2025 was $2.1 billion with free cash flow of $1.8 billion.",
+    "source": "Seeking Alpha",
+    "published_at": "2026-01-28T10:00:00",
+    "tickers": ["DHR"],
+    "sector": "Healthcare",
+    "sentiment": "neutral"
+  },
+  {
+    "headline": "Thermo Fisher Reports Q4 2025 Revenue of $12.2B, Beats Estimates",
+    "summary": "Thermo Fisher Scientific reported Q4 2025 revenue of $12.21 billion, up 7%, with adjusted EPS of $6.57 growing 8%. Full-year revenue reached $44.56 billion. The company initiated 2026 guidance of $46.3 to $47.2 billion in revenue, representing 4% to 6% reported growth.",
+    "source": "Thermo Fisher",
+    "published_at": "2026-01-29T06:30:00",
+    "tickers": ["TMO"],
+    "sector": "Healthcare",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Thermo Fisher Announces $9B Deal to Acquire Clario",
+    "summary": "Thermo Fisher Scientific announced a definitive agreement to acquire Clario, a digital endpoint data provider generating approximately $1.5 billion in 2025 revenue, for $9 billion. The acquisition is expected to add $0.20 to $0.25 per share to adjusted EPS and strengthen Thermo Fisher's clinical research services.",
+    "source": "Seeking Alpha",
+    "published_at": "2026-01-29T08:00:00",
+    "tickers": ["TMO"],
+    "sector": "Healthcare",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Thermo Fisher Stock Slips Despite Q4 Beat on Underwhelming 2026 Guidance",
+    "summary": "Thermo Fisher shares declined after the company's 2026 revenue guidance of $46.3 to $47.2 billion fell short of some analyst expectations. Despite beating estimates for 14 of the last 16 quarters, investors wanted stronger organic growth projections beyond the 3% to 4% guided range.",
+    "source": "Seeking Alpha",
+    "published_at": "2026-01-29T16:00:00",
+    "tickers": ["TMO"],
+    "sector": "Healthcare",
+    "sentiment": "negative"
+  },
+  {
+    "headline": "Eli Lilly CEO Says Medicare Coverage of Obesity Drugs Could 'Change the Game'",
+    "summary": "Eli Lilly CEO David Ricks said Medicare coverage of obesity drugs could transform the upcoming launch of the company's oral GLP-1 pill orforglipron. Medicare coverage would dramatically expand the addressable patient population and could accelerate adoption beyond the current self-pay and commercial insurance markets.",
+    "source": "CNBC",
+    "published_at": "2026-01-30T11:00:00",
+    "tickers": ["LLY"],
+    "sector": "Healthcare",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Lilly's Orforglipron Granted FDA National Priority Voucher for Expedited Review",
+    "summary": "The FDA awarded Eli Lilly's oral GLP-1 pill orforglipron a Commissioner's National Priority Voucher, potentially accelerating the review timeline to weeks rather than the standard 6 to 10 months. Lilly expects the FDA decision as early as March 2026, ahead of a planned Q2 commercial launch.",
+    "source": "BioPharma Dive",
+    "published_at": "2026-01-31T09:00:00",
+    "tickers": ["LLY"],
+    "sector": "Healthcare",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Merck Reports Q4 2025 Earnings, Keytruda Sales Top $8.37B",
+    "summary": "Merck reported Q4 worldwide sales of $16.4 billion, beating analyst estimates, with Keytruda sales of $8.37 billion rising 7% year-over-year on strong uptake in earlier-stage cancers. Full-year Keytruda/Keytruda QLEX sales reached $31.7 billion, cementing its position as the world's top-selling drug.",
+    "source": "CNBC",
+    "published_at": "2026-02-03T06:30:00",
+    "tickers": ["MRK"],
+    "sector": "Healthcare",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Merck Issues Modest 2026 Outlook Amid Patent Cliff Concerns",
+    "summary": "Merck guided 2026 revenue of $65.5 to $67 billion, below analysts' $67.6 billion expectation, as the company prepares for patent expirations later this year. Merck announced a $3 billion cost-cutting program through 2027 to help offset anticipated revenue losses ahead of Keytruda's 2028 patent expiration.",
+    "source": "CNBC",
+    "published_at": "2026-02-03T09:00:00",
+    "tickers": ["MRK"],
+    "sector": "Healthcare",
+    "sentiment": "negative"
+  },
+  {
+    "headline": "Merck Reorganizes Human Health Business Into Two Units",
+    "summary": "Merck announced a strategic reorganization of its Human Health business, creating two distinct units: the Oncology Business Unit and the Specialty, Pharma & Infectious Diseases Business Unit. The restructuring aims to sharpen commercial focus as the company navigates Keytruda's patent cliff and launches next-generation therapies.",
+    "source": "Merck",
+    "published_at": "2026-02-03T12:00:00",
+    "tickers": ["MRK"],
+    "sector": "Healthcare",
+    "sentiment": "neutral"
+  },
+  {
+    "headline": "Amgen Reports Q4 2025 Results, Biosimilar Sales Surge 37% to $3B",
+    "summary": "Amgen reported Q4 2025 earnings with its biosimilar portfolio delivering $3 billion in full-year sales, up 37%, led by PAV Blue (biosimilar to Eylea) reaching $700 million. The company guided 2026 revenues of $37.0 to $38.4 billion and non-GAAP EPS of $21.60 to $23.00.",
+    "source": "Amgen",
+    "published_at": "2026-02-03T06:30:00",
+    "tickers": ["AMGN"],
+    "sector": "Healthcare",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Amgen Faces Headwinds from Biosimilar Competition to Prolia and XGEVA",
+    "summary": "Amgen warned that Prolia and XGEVA face accelerated sales erosion in 2026 from increased biosimilar competition as multiple denosumab biosimilars launch globally. The company expects its growing biosimilar portfolio and MariTide obesity program to offset the anticipated declines.",
+    "source": "Motley Fool",
+    "published_at": "2026-02-03T14:00:00",
+    "tickers": ["AMGN"],
+    "sector": "Healthcare",
+    "sentiment": "negative"
+  },
+  {
+    "headline": "Eli Lilly Q4 Revenue Soars 43% to $19.3B on Mounjaro and Zepbound Demand",
+    "summary": "Eli Lilly reported Q4 2025 revenue of $19.3 billion, a 43% increase driven by a 46% volume surge for Mounjaro and Zepbound. Adjusted EPS of $7.54 beat analysts' $6.96 estimate by over 8%, as the GLP-1 franchise continues to exceed all expectations.",
+    "source": "CNBC",
+    "published_at": "2026-02-04T06:30:00",
+    "tickers": ["LLY"],
+    "sector": "Healthcare",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Eli Lilly Issues Blockbuster 2026 Guidance of $80B-$83B Revenue",
+    "summary": "Eli Lilly guided 2026 revenue of $80 to $83 billion, far surpassing the $77.62 billion analyst consensus and representing approximately 25% growth at the midpoint. The company cited Medicare coverage, global Mounjaro/Zepbound demand, and the expected Q2 launch of oral orforglipron as key drivers.",
+    "source": "CNBC",
+    "published_at": "2026-02-04T07:00:00",
+    "tickers": ["LLY"],
+    "sector": "Healthcare",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Lilly's GLP-1 Growth Only Getting Started as Novo Nordisk Braces for Decline",
+    "summary": "With Q4 results showing a 43% revenue surge, Eli Lilly's GLP-1 dominance is accelerating while competitor Novo Nordisk braces for a sales decline in 2026. Lilly holds 60% of the U.S. GLP-1 market and expects tirzepatide patent protection to extend into the back half of the 2030s.",
+    "source": "CNBC",
+    "published_at": "2026-02-04T12:00:00",
+    "tickers": ["LLY"],
+    "sector": "Healthcare",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "AbbVie Reports Record Full-Year 2025 Revenue of $61.2B",
+    "summary": "AbbVie reported record adjusted net revenues of $61.2 billion for 2025, exceeding guidance despite substantial Humira erosion. Skyrizi delivered $17.6 billion in global sales with 32.5% growth, while Rinvoq reached $8.3 billion with 29.5% growth, together already surpassing the 2027 long-term guidance.",
+    "source": "AbbVie",
+    "published_at": "2026-02-04T06:30:00",
+    "tickers": ["ABBV"],
+    "sector": "Healthcare",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "AbbVie Forecasts Skyrizi and Rinvoq Combined Sales Above $31B in 2026",
+    "summary": "AbbVie projected combined Skyrizi and Rinvoq sales of more than $31 billion in 2026, having already exceeded its previous 2027 target by $500 million. The immunology duo has successfully offset the Humira biosimilar impact, with Skyrizi emerging as one of the world's fastest-growing drugs.",
+    "source": "Fierce Pharma",
+    "published_at": "2026-02-04T10:00:00",
+    "tickers": ["ABBV"],
+    "sector": "Healthcare",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "AbbVie Stock Falls Despite Earnings Beat on Cautious Market Sentiment",
+    "summary": "AbbVie shares declined following its Q4 earnings report despite beating estimates for both earnings and sales and issuing an upbeat 2026 outlook. Investors appeared to take profits after the strong run, with some analysts noting the stock's premium valuation relative to pharma peers.",
+    "source": "Yahoo Finance",
+    "published_at": "2026-02-04T16:00:00",
+    "tickers": ["ABBV"],
+    "sector": "Healthcare",
+    "sentiment": "negative"
+  },
+  {
+    "headline": "Lilly Reports Global Pricing Decline in Low-to-Mid Teens for GLP-1 Drugs",
+    "summary": "Eli Lilly disclosed a global pricing decline in the low-to-mid teens percentages for its GLP-1 products in 2026, following the Most Favored Nation deals struck with the Trump administration. However, management expects the lower prices to eventually increase prescription volumes and expand market access.",
+    "source": "CNBC",
+    "published_at": "2026-02-04T14:00:00",
+    "tickers": ["LLY"],
+    "sector": "Healthcare",
+    "sentiment": "neutral"
+  },
+  {
+    "headline": "Merck's Two-Drug HIV Regimen Matches Gilead's Biktarvy in Phase 3 Trials",
+    "summary": "Merck announced late-breaking Phase 3 data at CROI 2026 showing its investigational doravirine/islatravir once-daily HIV regimen matched Gilead's blockbuster Biktarvy across key efficacy endpoints. The two-drug combination is now under FDA review and could offer a simplified treatment option for adults living with HIV-1.",
+    "source": "Merck",
+    "published_at": "2026-02-05T08:00:00",
+    "tickers": ["MRK"],
+    "sector": "Healthcare",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Merck Stock Hits 52-Week High at $123.30 on Pipeline Optimism",
+    "summary": "Merck shares reached a 52-week high of $123.30 as Barclays initiated coverage with an overweight rating, pointing to expected drug launches and clinical trial results in 2026. Analysts highlighted the anticipated launch of enlicitide and the HIV regimen under FDA review as catalysts.",
+    "source": "Barclays",
+    "published_at": "2026-02-13T10:00:00",
+    "tickers": ["MRK"],
+    "sector": "Healthcare",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Johnson & Johnson Loses Talc Trial, Adding to 67,000+ Active Lawsuits",
+    "summary": "A jury found Johnson & Johnson liable in a talc baby powder-linked ovarian cancer trial on February 13, 2026. The verdict adds to over 67,000 active talc lawsuits against the company, following a $1.5 billion Baltimore jury award in December 2025 and a $40 million California verdict.",
+    "source": "Asbestos.com",
+    "published_at": "2026-02-13T15:00:00",
+    "tickers": ["JNJ"],
+    "sector": "Healthcare",
+    "sentiment": "negative"
+  },
+  {
+    "headline": "J&J Stock Rallies 62% Over Past Year Despite Talc Litigation Overhang",
+    "summary": "Johnson & Johnson shares have surged 62% over the past year from February 2025 to February 2026, driven by soaring oncology profits and strong MedTech sales. Analysts maintain a Buy consensus with an average price target of $227.29, though ongoing talc litigation remains a risk factor.",
+    "source": "Trefis",
+    "published_at": "2026-02-14T09:00:00",
+    "tickers": ["JNJ"],
+    "sector": "Healthcare",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Danaher Announces $9.9B Acquisition of Masimo Corporation",
+    "summary": "Danaher agreed to acquire medical technology company Masimo for $9.9 billion in an all-cash deal at $180 per share, a nearly 40% premium. Masimo, which specializes in pulse oximetry and patient monitoring, generated $2.18 billion in trailing 12-month revenue, and the deal is expected to close in H2 2026.",
+    "source": "24/7 Wall St",
+    "published_at": "2026-02-17T07:00:00",
+    "tickers": ["DHR"],
+    "sector": "Healthcare",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Danaher-Masimo Deal Marks One of 2026's Largest Medtech Buyouts",
+    "summary": "Danaher expects the Masimo acquisition to generate over $530 million in EBITDA by 2027, with $125 million in annual cost synergies and $50 million in revenue synergies by year five. The deal is expected to be accretive to adjusted diluted EPS by $0.15 to $0.20 in the first year.",
+    "source": "PR Newswire",
+    "published_at": "2026-02-17T12:00:00",
+    "tickers": ["DHR"],
+    "sector": "Healthcare",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "FDA Approves J&J's Rybrevant Faspro for Monthly Dosing in Lung Cancer",
+    "summary": "The FDA approved a new monthly dosing schedule for Johnson & Johnson's Rybrevant Faspro for first-line treatment of EGFR-mutated advanced non-small cell lung cancer. The monthly subcutaneous injection offers a fivefold reduction in administration-related reactions compared to intravenous delivery.",
+    "source": "Johnson & Johnson",
+    "published_at": "2026-02-17T08:00:00",
+    "tickers": ["JNJ"],
+    "sector": "Healthcare",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "J&J's Rybrevant Faspro Receives FDA Breakthrough Designation for Head and Neck Cancer",
+    "summary": "The FDA granted Breakthrough Therapy Designation for J&J's subcutaneous Rybrevant Faspro in adults with recurrent or metastatic HPV-unrelated head and neck squamous cell carcinoma. The designation provides an expedited development pathway and signals the FDA sees potential for meaningful benefit over existing therapies.",
+    "source": "Johnson & Johnson",
+    "published_at": "2026-02-18T07:00:00",
+    "tickers": ["JNJ"],
+    "sector": "Healthcare",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "J&J Announces $1B+ Cell Therapy Manufacturing Site",
+    "summary": "Johnson & Johnson announced plans for a new cell therapy manufacturing site with investment exceeding $1 billion. The facility will support the company's growing CAR-T therapy portfolio and reflects J&J's commitment to expanding its oncology manufacturing capabilities to meet rising demand.",
+    "source": "Johnson & Johnson",
+    "published_at": "2026-02-18T14:00:00",
+    "tickers": ["JNJ"],
+    "sector": "Healthcare",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Exact Sciences Stockholders Approve $21B Acquisition by Abbott",
+    "summary": "Exact Sciences stockholders overwhelmingly approved the acquisition by Abbott, with more than 99% of votes cast in favor, representing approximately 67% of total outstanding shares. The $105-per-share all-cash deal is expected to close before the end of Q2 2026, pending remaining regulatory approvals.",
+    "source": "Business Wire",
+    "published_at": "2026-02-20T12:00:00",
+    "tickers": ["ABT"],
+    "sector": "Healthcare",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Merck Reaches Agreement with U.S. Government on Drug Pricing",
+    "summary": "Merck announced an agreement with the U.S. government to expand access to medicines and lower costs, offering key products including Januvia, Janumet, and Janumet XR at discounts of up to 70% through a direct-to-consumer program. The deal is part of the Trump administration's Most Favored Nation initiative.",
+    "source": "Merck",
+    "published_at": "2026-02-06T09:00:00",
+    "tickers": ["MRK"],
+    "sector": "Healthcare",
+    "sentiment": "neutral"
+  },
+  {
+    "headline": "Lilly's Orforglipron Outperforms Oral Semaglutide in Head-to-Head Trial",
+    "summary": "Lilly's oral GLP-1 orforglipron delivered superior blood sugar control and weight loss compared to Novo Nordisk's oral semaglutide in the head-to-head ACHIEVE-3 trial published in The Lancet. The results give Lilly a significant clinical edge as it prepares to launch the first oral obesity pill in the U.S.",
+    "source": "The Lancet",
+    "published_at": "2026-02-07T06:00:00",
+    "tickers": ["LLY"],
+    "sector": "Healthcare",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Trump Launches TrumpRx.gov to Bring Lower Drug Prices to Patients",
+    "summary": "The White House launched TrumpRx.gov, a platform enabling patients to purchase 40 of the most popular and expensive branded medicines at significantly reduced prices. The initiative builds on Most Favored Nation deals struck with 16 pharmaceutical manufacturers since September 2025.",
+    "source": "White House",
+    "published_at": "2026-02-10T10:00:00",
+    "tickers": ["LLY", "MRK", "ABBV", "JNJ", "AMGN"],
+    "sector": "Healthcare",
+    "sentiment": "neutral"
+  },
+  {
+    "headline": "Eli Lilly Plans Orforglipron Self-Pay Launch at $149 Starting Dose via LillyDirect",
+    "summary": "Eli Lilly announced that upon FDA approval, self-pay patients will be able to access orforglipron through the LillyDirect pharmacy channel with the lowest dose starting at $149 and additional doses up to $399. The aggressive pricing strategy aims to make the oral GLP-1 pill accessible to a broad patient population.",
+    "source": "Eli Lilly",
+    "published_at": "2026-02-11T08:00:00",
+    "tickers": ["LLY"],
+    "sector": "Healthcare",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "UnitedHealth Declares $2.21 Quarterly Dividend Despite Revenue Challenges",
+    "summary": "The UnitedHealth Group board of directors authorized a cash dividend of $2.21 per share, payable on March 17, 2026, to shareholders of record as of March 9. The dividend maintains UNH's commitment to shareholder returns even as the company navigates a projected revenue decline in 2026.",
+    "source": "Stock Titan",
+    "published_at": "2026-02-12T08:00:00",
+    "tickers": ["UNH"],
+    "sector": "Healthcare",
+    "sentiment": "neutral"
+  },
+  {
+    "headline": "Analysts Maintain Buy Rating on UNH with $373 Target Despite Headwinds",
+    "summary": "Twenty-four analysts covering UnitedHealth maintain a Buy consensus rating with an average price target of $373.12 as of late February 2026, despite the stock trading near $284. Analysts view the current weakness as temporary, citing UNH's dominant market position and expected recovery in 2027.",
+    "source": "Public.com",
+    "published_at": "2026-02-12T14:00:00",
+    "tickers": ["UNH"],
+    "sector": "Healthcare",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Merck Positive Data for ENFLONSIA RSV Treatment in At-Risk Infants",
+    "summary": "Merck announced positive new data for ENFLONSIA (clesrovimab) in infants and children under 2 at increased risk for severe RSV disease, showing consistent protection over two RSV seasons. The results strengthen Merck's position in the growing RSV prevention market.",
+    "source": "Merck",
+    "published_at": "2026-02-14T07:00:00",
+    "tickers": ["MRK"],
+    "sector": "Healthcare",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Merck Wins FDA Approval for NUMELVI Allergy Tablet for Dogs",
+    "summary": "Merck received FDA approval for NUMELVI, the first second-generation JAK inhibitor for control of pruritus associated with allergic dermatitis in dogs six months of age and older. The product is expected to be available at veterinary clinics nationwide in spring 2026.",
+    "source": "Stock Titan",
+    "published_at": "2026-02-15T08:00:00",
+    "tickers": ["MRK"],
+    "sector": "Healthcare",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Lilly's Orforglipron Maintains Weight Loss After Switching from Injectables",
+    "summary": "Eli Lilly reported results from a first-of-its-kind Phase 3 trial showing orforglipron helped patients maintain weight loss after switching from injectable GLP-1 therapies. The data supports a key use case where patients transition from injections to a more convenient daily pill without losing treatment benefits.",
+    "source": "Eli Lilly",
+    "published_at": "2026-02-18T07:00:00",
+    "tickers": ["LLY"],
+    "sector": "Healthcare",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Amgen's Biosimilar Pipeline Advances with Opdivo and Keytruda Candidates",
+    "summary": "Amgen disclosed that ABP-206 (biosimilar to Opdivo) and ABP-234 (biosimilar to Keytruda) have completed enrollment in their comparative clinical studies. Successful development of these biosimilars could position Amgen to capture share when Bristol-Myers and Merck's blockbuster cancer immunotherapies face patent expirations.",
+    "source": "Amgen",
+    "published_at": "2026-02-19T09:00:00",
+    "tickers": ["AMGN", "MRK"],
+    "sector": "Healthcare",
+    "sentiment": "neutral"
+  },
+  {
+    "headline": "UnitedHealth Continues Cooperation with DOJ Medicare Billing Investigation",
+    "summary": "UnitedHealth Group confirmed ongoing cooperation with the Department of Justice's civil and criminal investigations into its Medicare Advantage billing practices and Optum Rx operations. The DOJ is examining whether UnitedHealth inflated risk scores and diagnoses to drive higher payments from CMS.",
+    "source": "Healthcare Dive",
+    "published_at": "2026-02-19T11:00:00",
+    "tickers": ["UNH"],
+    "sector": "Healthcare",
+    "sentiment": "negative"
+  },
+  {
+    "headline": "Abbott Sells $20B in Bonds to Finance Exact Sciences Acquisition",
+    "summary": "Abbott Laboratories sold $20 billion of bonds to help fund its $21 billion acquisition of Exact Sciences. The massive bond offering reflects strong investor demand for Abbott's investment-grade debt and positions the company to complete the transformative cancer diagnostics deal in Q2 2026.",
+    "source": "Bloomberg",
+    "published_at": "2026-02-23T08:00:00",
+    "tickers": ["ABT"],
+    "sector": "Healthcare",
+    "sentiment": "neutral"
+  },
+  {
+    "headline": "AbbVie Plans $380M Investment in Two API Manufacturing Facilities",
+    "summary": "AbbVie announced plans to invest $380 million in two active pharmaceutical ingredient manufacturing facilities at its Illinois campus. The investment supports domestic drug manufacturing and aligns with AbbVie's commitment under its Most Favored Nation agreement with the Trump administration.",
+    "source": "AbbVie",
+    "published_at": "2026-02-23T10:00:00",
+    "tickers": ["ABBV"],
+    "sector": "Healthcare",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "AbbVie's Real-World Vraylar Study in Bipolar I Disorder Completed",
+    "summary": "AbbVie announced completion of its real-world Vraylar study in Bipolar I disorder, adding to the evidence base for one of its key neuroscience products. Vraylar has become an increasingly important revenue contributor as AbbVie diversifies beyond its immunology franchise.",
+    "source": "AbbVie",
+    "published_at": "2026-02-24T07:00:00",
+    "tickers": ["ABBV"],
+    "sector": "Healthcare",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Abbott FDA Clearance for Amplatzer Piccolo System for Premature Infants",
+    "summary": "Abbott announced FDA clearance and CE Mark for the Amplatzer Piccolo Delivery System to treat patent ductus arteriosus in premature infants. The device is designed for the tiniest babies and enables single-catheter procedures, expanding Abbott's structural heart portfolio into neonatal care.",
+    "source": "Abbott",
+    "published_at": "2026-02-24T09:00:00",
+    "tickers": ["ABT"],
+    "sector": "Healthcare",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Eli Lilly Takes Two Major Steps Forward in Obesity Drug Market",
+    "summary": "Eli Lilly advanced its obesity drug portfolio with positive orforglipron maintenance data and continued Zepbound commercial momentum. Analysts expect the FDA decision on orforglipron to come as early as March, which would make it the first oral GLP-1 therapy approved for obesity treatment.",
+    "source": "Motley Fool",
+    "published_at": "2026-02-25T08:00:00",
+    "tickers": ["LLY"],
+    "sector": "Healthcare",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "J&J Reaches Agreement with Trump Administration on Drug Pricing, Completing Industry Effort",
+    "summary": "Johnson & Johnson's agreement brought 15 of 17 major pharmaceutical companies into the Trump administration's Most Favored Nation drug pricing initiative. J&J committed to offering select medicines at reduced prices through TrumpRx.gov and expanding patient access programs.",
+    "source": "AJMC",
+    "published_at": "2026-02-08T09:00:00",
+    "tickers": ["JNJ"],
+    "sector": "Healthcare",
+    "sentiment": "neutral"
+  },
+  {
+    "headline": "Lilly and U.S. Government Agree to Expand Access to Obesity Medicines",
+    "summary": "Eli Lilly and the U.S. government reached an agreement to expand access to obesity medicines for millions of Americans. Under the deal, Medicare beneficiaries will pay no more than $50 per month for tirzepatide, while a multidose pen will be available at $299 for the lowest dose through self-pay channels.",
+    "source": "Eli Lilly",
+    "published_at": "2026-02-09T08:00:00",
+    "tickers": ["LLY"],
+    "sector": "Healthcare",
+    "sentiment": "positive"
+  },
+  {
+    "headline": "Mitsubishi UFJ Acquires Additional Johnson & Johnson Shares",
+    "summary": "Mitsubishi UFJ Asset Management Co. Ltd. disclosed acquisition of additional JNJ shares, reflecting continued institutional confidence in Johnson & Johnson's diversified healthcare portfolio. The buying comes amid JNJ's strong oncology growth trajectory and MedTech expansion.",
+    "source": "MarketBeat",
+    "published_at": "2026-02-26T08:00:00",
+    "tickers": ["JNJ"],
+    "sector": "Healthcare",
+    "sentiment": "positive"
+  }
+]
