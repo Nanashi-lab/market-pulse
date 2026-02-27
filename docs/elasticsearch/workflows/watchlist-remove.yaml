@@ -1,0 +1,42 @@
+# Tool: watchlist.remove
+# Description: Remove a stock ticker from the user's watchlist by changing its status to removed.
+# Parameter: ticker — The stock ticker symbol to remove (e.g. AAPL, TSLA, MSFT)
+
+name: Remove from Watchlist
+description: Removes a stock ticker from the user's watchlist
+
+inputs:
+  - name: ticker
+    type: string
+    required: true
+    description: "Stock ticker symbol to remove"
+
+triggers:
+  - type: manual
+
+steps:
+  - name: find_ticker
+    type: elasticsearch.search
+    with:
+      index: watchlist
+      size: 1
+      query:
+        term:
+          ticker: "{{ inputs.ticker | upcase }}"
+
+  - name: check_exists
+    type: if
+    condition: 'steps.find_ticker.output.hits.total.value > 0'
+    steps:
+      - name: deactivate_ticker
+        type: elasticsearch.update
+        with:
+          index: watchlist
+          id: "{{ steps.find_ticker.output.hits.hits[0]._id }}"
+          doc:
+            status: "removed"
+    else:
+      - name: not_found
+        type: console
+        with:
+          message: "Ticker {{ inputs.ticker }} not found in watchlist"

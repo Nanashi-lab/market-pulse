@@ -1,0 +1,46 @@
+# Tool: market.daily_briefing
+# Description: Generate a daily morning market briefing that summarizes top stock movers
+#              and recent financial news.
+# Sub-Agent: market_briefing_agent
+# Parameters: None
+
+name: Daily Market Briefing
+description: >-
+  Gathers top movers and recent news, then calls an agent
+  to synthesize a daily briefing.
+
+triggers:
+  - type: manual
+
+steps:
+  - name: get_top_movers
+    type: elasticsearch.esql.query
+    with:
+      format: json
+      query: "FROM stock_prices | SORT change_pct DESC | LIMIT 10"
+
+  - name: get_recent_news
+    type: elasticsearch.esql.query
+    with:
+      format: json
+      query: "FROM news | SORT published_at DESC | LIMIT 10"
+
+  - name: generate_briefing
+    type: kibana.request
+    with:
+      method: "POST"
+      path: "/api/agent_builder/converse"
+      headers:
+        kbn-xsrf: "true"
+      body:
+        agent_id: "market_briefing_agent"
+        input: |
+          Generate a morning market briefing based on this data:
+
+          TOP MOVERS:
+          {{ steps.get_top_movers.output | json }}
+
+          RECENT NEWS:
+          {{ steps.get_recent_news.output | json }}
+
+          Summarize the key movers, trends, and any notable news.

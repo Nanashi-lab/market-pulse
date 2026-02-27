@@ -1,0 +1,24 @@
+# Tool: watchlist.add
+# Description: Add a stock ticker to the user's watchlist and set it as actively tracked.
+# Parameter: ticker — The stock ticker symbol to add (e.g. AAPL, TSLA, MSFT)
+
+name: Add to Watchlist
+description: Adds a stock ticker to the user's watchlist with tracked status
+
+inputs:
+  - name: ticker
+    type: string
+    required: true
+    description: "Stock ticker symbol to add"
+
+triggers:
+  - type: manual
+
+steps:
+  - name: add_ticker
+    type: elasticsearch.index
+    with:
+      index: watchlist
+      document:
+        ticker: "{{ inputs.ticker | upcase }}"
+        status: "tracked"

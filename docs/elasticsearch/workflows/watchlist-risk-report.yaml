@@ -1,0 +1,50 @@
+# Tool: market.watchlist_risk_report
+# Description: Generate a risk analysis report for all tracked watchlist stocks by
+#              cross-referencing them with recent negative news.
+# Sub-Agent: watchlist_risk_analyst
+# Parameters: None
+
+name: Watchlist Risk Report
+description: >-
+  Pulls tracked watchlist stocks, finds negative news about them,
+  and calls an agent to analyze and rank risk.
+
+triggers:
+  - type: manual
+
+steps:
+  - name: get_watchlist
+    type: elasticsearch.esql.query
+    with:
+      format: json
+      query: >-
+        FROM watchlist | WHERE status == "tracked" | KEEP ticker
+
+  - name: get_negative_news
+    type: elasticsearch.esql.query
+    with:
+      format: json
+      query: >-
+        FROM news | WHERE sentiment == "negative"
+        | KEEP headline, summary, tickers, sector, published_at
+        | SORT published_at DESC | LIMIT 20
+
+  - name: analyze_risk
+    type: kibana.request
+    with:
+      method: "POST"
+      path: "/api/agent_builder/converse"
+      headers:
+        kbn-xsrf: "true"
+      body:
+        agent_id: "watchlist_risk_analyst"
+        input: |
+          Analyze risk for my watchlist stocks based on negative news.
+
+          TRACKED STOCKS:
+          {{ steps.get_watchlist.output | json }}
+
+          NEGATIVE NEWS:
+          {{ steps.get_negative_news.output | json }}
+
+          Rank stocks from highest to lowest risk.
